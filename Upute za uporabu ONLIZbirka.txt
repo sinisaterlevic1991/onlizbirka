@@ -1,0 +1,11 @@
+INSTALACIJA
+
+1. Potrebno je folder 'ONLIZbrika' kopirati u www folder Wamp servera
+ (servera prisutnog na vašem raèunalu) 
+
+2. Potrebno je kreirati novu bazu imena 'ONLIZbirka' te importirati bazu 
+	koja je priložena unutar foldera 'baza'
+
+3. Pokrenuti web browser i u URL upisati localhost/ONLIZbirka/
+
+4. PhpMyAdmin user: root, pass:sine

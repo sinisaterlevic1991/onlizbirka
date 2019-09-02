@@ -1,0 +1,361 @@
+﻿.btn {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  size: 500px;
+  color: black;
+  width: 5em;
+  height: 2em;
+  
+  
+  
+}
+
+li{
+
+	text-align:center;
+}
+
+.nav{
+		
+		
+
+}
+.nav li.active a{
+	color:black;
+	}
+	
+.nav a, .nav a:visited, .nav li.active li a{ 
+	color:rgba (77, 114, 255, 0.2);
+	border:1px black;
+	}
+
+.nav li{
+		list-style-type: none;
+		margin: 0;
+		padding: 15px;
+		position:relative;
+		left:-16%;
+	}
+
+	.pocetna{
+		
+		position:absolute;
+		left:6%;
+		width:15%; 
+		font-family:Georgia, "Times New Roman", Times, serif;
+		font-size:15px;
+	
+	}
+
+html,body {height:100%;}
+
+body{	width:100%;
+		height:100%;
+		background-image: url("bookshelf.jpg");
+		background-repeat: no-repeat;
+		background-position: center;
+
+
+}
+
+h1{
+
+	font-family: Rockwell, 'Courier Bold', Courier, Georgia, Times, 'Times New Roman', serif;
+}
+
+h2 {
+	font-family: Rockwell, 'Courier Bold', Courier, Georgia, Times, 'Times New Roman', serif;
+
+}
+h5{
+	font-family: Rockwell, 'Courier Bold', Courier, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+#banner {
+
+		margin-left: auto;
+		margin-right: auto;
+		background: rgba(255,255,255,0.6);
+		width: 100%; 
+		height: 20%;
+		text-align: center;
+		font-family: Rockwell, 'Courier Bold', Courier, Georgia, Times, 'Times New Roman', serif;
+		font-size: 30px;
+		font-style: normal;
+		font-variant: small-caps;
+		font-weight: bold;
+		line-height: 23px;
+		
+		
+		
+}
+
+#opis{		
+		
+		text-align: center;
+		font-family: Rockwell, 'Courier Bold', Courier, Georgia, Times, 'Times New Roman', serif;
+		font-size: 23px;
+		font-style: normal;
+		font-variant: normal;
+		font-weight: 500;
+		line-height: 23px;
+}
+
+
+#poravnanje {
+
+		
+		margin-left:0%;
+		width:20%; 
+		float:left;
+		height:100%;
+		text-align:left;
+		
+}
+
+#lijeviizbornik{
+		
+		position:absolute;
+		left:0.5%;
+		
+		background: rgba(255,255,255,0.6);
+		width:15%; 
+		height:100%;
+		z-index: -1;
+		
+}
+
+#desno{
+		
+		position:absolute;
+		right:0%;
+		text-align:center;
+		
+		background: rgba(255,255,255,0.6);
+		width:15%; 
+		height:100%;
+		z-index: -1;
+		
+}
+
+#srednjidio{
+		
+		margin-left: auto;
+		margin-right: auto;
+		background: rgba(255,255,255,0.6);
+		width:60%; 
+		height:100%;	
+
+}
+/*
+#srednjidiosredina{
+		/*background: rgba(91, 126, 91, 0.45);
+		width: 100%;
+	 
+}*/
+
+
+A{ 
+text-decoration:none;
+
+}
+
+
+
+
+
+.butunknjige1 {
+	background-image: url("images/korice/spine1.jpg");
+    background-repeat: no-repeat;
+	background-position: left;
+	
+	display: block;
+	height: 4%;
+	width: 75%;
+	border: 1px black;
+	color: rgba (77, 114, 255, 0.2);
+	text-align: center;
+	font: 1.5em/40px "Helvetica Neue", Helvetica, Geneva, sans-serif;
+	border-radius: 30px;
+	
+}
+.butunknjige2 {
+	background-image: url("images/korice/spine2.jpg");
+    background-repeat: no-repeat;
+	background-position: center;
+	
+	display: block;
+	height: 4%;
+	width: 75%;
+	border: 1px black;
+	color: rgba (77, 114, 255, 0.2);
+	text-align: center;
+	font: 1.5em/40px "Helvetica Neue", Helvetica, Geneva, sans-serif;
+	border-radius: 30px;
+	
+}
+.butunknjige3 {
+	background-image: url("images/korice/spine3.jpg");
+    background-repeat: no-repeat;
+	background-position: center;
+	
+	display: block;
+	height: 4%;
+	width: 75%;
+	border: 1px black;
+	color: rgba (77, 114, 255, 0.2);
+	text-align: center;
+	font: 1.5em/40px "Helvetica Neue", Helvetica, Geneva, sans-serif;
+	border-radius: 30px;
+	
+}
+
+.butunknjige4 {
+	background-image: url("images/korice/spine4.jpg");
+    background-repeat: no-repeat;
+	background-position: center;
+	
+	display: block;
+	height: 4%;
+	width: 75%;
+	border: 1px black;
+	color: rgba (77, 114, 255, 0.2);
+	text-align: center;
+	font: 1.5em/40px "Helvetica Neue", Helvetica, Geneva, sans-serif;
+	border-radius: 30px;
+	
+}
+
+.butunknjige5 {
+	background-image: url("images/korice/spine5.jpg");
+    background-repeat: no-repeat;
+	background-position: center;
+	
+	display: block;
+	height: 4%;
+	width: 75%;
+	border: 1px black;
+	color: rgba (77, 114, 255, 0.2);
+	text-align: center;
+	font: 1.5em/40px "Helvetica Neue", Helvetica, Geneva, sans-serif;
+	border-radius: 30px;
+	
+}
+
+
+
+.pretra  {
+	background:rgba(77, 114, 255, 0.2);
+	font-size:1.25em/30px;
+	border:1px solid #000000;
+	border-radius:2px;
+	border-spacing:none;
+	
+}
+.pretra th {
+	 font-size:1.25em/30px;
+	border:1px solid #000000;
+	border-radius:2px;
+	border-spacing:none;
+	
+}
+.pretra td {
+	 font-size:1.25em/30px;
+	border:1px solid #000000;
+	border-radius:2px;
+	border-spacing:none;
+	
+}
+
+
+.koris { 
+	background:rgba(77, 114, 255, 0.2);
+	font-size:1.25em/30px;
+	border:1px solid #000000;
+	border-radius:2px;
+	border-spacing:none;
+	
+}
+
+.koris th { font-size:1.25em/30px;
+	border:1px solid #000000;
+	border-radius:2px;
+	border-spacing:none;
+	
+}
+
+.koris td { font-size:1.25em/30px;
+	border:1px solid #000000;
+	border-radius:2px;
+	border-spacing:none;
+	
+}
+
+
+
+td{
+	text-align:center;
+
+}
+
+#user{
+
+		position:relative;
+		left:-5%;
+		
+
+}
+
+table{
+		background: rgba(77, 114, 255, 0.2);
+		font-size:20;
+
+}
+
+#gumb {
+  
+   border-top: 1px solid #96d1f8;
+   background: rgba(77, 114, 255, 0.2);
+   background: -webkit-gradient(linear, left top, left bottom, from rgba(90, 110, 255, 0.2), to rgba(77, 114, 255, 0.2));
+   background: -webkit-linear-gradient(top, rgba(90, 110, 255, 0.2), rgba(77, 114, 255, 0.2)0);
+   background: -moz-linear-gradient(top, #539000, #c5d665);
+   background: -ms-linear-gradient(top, #539c3e, #c5d665);
+   background: -o-linear-gradient(top, #539c3e, #c5d665);
+   padding: 4px 8px;
+   -webkit-border-radius: 7px;
+   -moz-border-radius: 7px;
+   border-radius: 7px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: white;
+   font-size: 13px;
+   font-family: Georgia, Serif;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+#gumb:hover {
+   border-top-color: #28597a;
+   background: #28597a;
+   color: #ccc;
+   }
+#gumb:active {
+   border-top-color: #1b435e;
+   background: #1b435e;
+   }
+
+
+        
